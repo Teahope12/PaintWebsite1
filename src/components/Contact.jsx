@@ -20,7 +20,7 @@ const Contact = () => {
           backgroundPosition: "center",
         }}
       >
-        {/* 🔥 LIGHT OVERLAY (LESS OPAQUE) */}
+        {/* LIGHT OVERLAY */}
         <div
           style={{
             position: "absolute",
