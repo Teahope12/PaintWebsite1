@@ -1,0 +1,84 @@
+/* MUST BE FIRST — before ANY CSS rules */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Inter:wght@300;400;500&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+.nav-btn:hover {
+  color: #0070f3;
+}
+.product-card {
+  padding: 20px;
+  border-radius: 8px;
+  background: #f5f5f5;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.contact-input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 15px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: #005bd1;
+}
+
+@media (max-width: 1100px) {
+  #projects div[style*="column-count"] {
+    column-count: 3 !important;
+  }
+}
+
+@media (max-width: 800px) {
+  #projects div[style*="column-count"] {
+    column-count: 2 !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #projects div[style*="column-count"] {
+    column-count: 1 !important;
+  }
+}
+

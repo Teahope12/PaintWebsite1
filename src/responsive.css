@@ -1,0 +1,22 @@
+/* GLOBAL MOBILE FIXES */
+@media (max-width: 768px) {
+
+  section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  h1 {
+    font-size: 42px !important;
+    line-height: 1.2 !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+
+  p {
+    font-size: 13px !important;
+  }
+
+}
